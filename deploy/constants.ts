@@ -1,0 +1,1 @@
+export const rewardTokenArb = "0x912ce59144191c1204e64559fe8253a0e49e6548"

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "strictFunctionTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "pretty": true,
+    "removeComments": true,
+    "outDir": "dist",
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "lib": ["ES2020.Promise", "es6"]
+  },
+  "include": ["./scripts", "./deploy"],
+  "exclude": ["node_modules/*", ".serverless", ".webpack"],
+  "files": ["./hardhat.config.ts"]
+}
