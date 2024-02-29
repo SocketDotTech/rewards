@@ -175,6 +175,6 @@ export const merkleRewardsContractAbi = [
 export const config: Record<string, Record<string, string>> = {
   arbitrum: {
     merkleRewardsContract: "0x659A3A109789b19fe6B6cB36389eE77F1807C54f",
-    rootJson: ""
+    rootJson: "https://media.socket.tech/rewards/claimData-42161.json"
   }
 }
